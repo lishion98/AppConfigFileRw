@@ -47,7 +47,4 @@ public partial class MainWindow : Window
             x_group.Children.Add(showC);
         }
     }
-
-    
-
 }
