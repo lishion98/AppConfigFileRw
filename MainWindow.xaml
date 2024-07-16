@@ -8,6 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
 
     <Grid>
+    <!--测试-->
         <StackPanel Background="AliceBlue" MinWidth="100" MaxWidth="500" HorizontalAlignment="Left" x:Name="x_group"/>
 
         <TextBlock x:Name="x_fileShow" HorizontalAlignment="Right" Width="200" Height="200" Background="Aqua" VerticalAlignment="Top"/>
