@@ -1,0 +1,16 @@
+﻿<Window x:Class="AppConfigFileRw.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppConfigFileRw"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+        <StackPanel Background="AliceBlue" MinWidth="100" MaxWidth="500" HorizontalAlignment="Left" x:Name="x_group"/>
+
+        <TextBlock x:Name="x_fileShow" HorizontalAlignment="Right" Width="200" Height="200" Background="Aqua" VerticalAlignment="Top"/>
+        <Button Content="刷新" HorizontalAlignment="Right" Width="100" Height="100" VerticalAlignment="Bottom" Click="SaveConfig_Click"/>
+    </Grid>
+</Window>
